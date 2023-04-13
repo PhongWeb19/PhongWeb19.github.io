@@ -102,6 +102,7 @@
         background-color: black;
         overflow:hidden;
         z-index: 1;
+        animation: move ease 0.5s;
     }
 
     
@@ -172,5 +173,15 @@
         position:unset;
         width: 100%;
     }
+
+    @keyframes move 
+{
+    from{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+    }
+}
 }
 

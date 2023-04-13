@@ -460,12 +460,3 @@
     }
 }
 
-@keyframes move1 
-{
-    from{
-        opacity: 1;
-    }
-    to{
-        opacity: 0.5;
-    }
-}
