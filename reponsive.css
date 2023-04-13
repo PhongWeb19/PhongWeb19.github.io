@@ -1,0 +1,176 @@
+/*PC*/
+@media (min-width: 1024px)
+{
+    #nav .icon-header
+    {
+        display: none;
+    }
+}
+/*Ipad*/
+@media (min-width: 740px) and (max-width: 1023px)
+{
+    #nav .icon-header
+    {
+        display: none;
+    }
+    
+    #header li a
+    {
+        padding: 5px 6px;
+    }
+    #header #subnav li {
+        display: inline-block;
+        padding: 0px 0px;
+    }
+
+    #header #nav-right #button {
+        padding: 3px 9px;
+        margin-right: -10px;
+    }
+    #header #namecontent,
+    #header #name #inname {
+        font-size: 28px;
+    }
+
+    #main-content
+    {
+        margin-left: -40px;
+        margin-right: -40px;
+    }
+
+    #table-content {
+          
+         margin-right: 0px;
+    }
+
+    #table-content .info-table  {
+        float:none;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    #contact-email #contact-email-button {
+        margin-left: -10%;
+    }
+
+    #contact-info
+    {
+        width: 100%;
+    }
+
+    #infor
+    {
+        text-align: center;
+    }
+
+    #footer-info {
+        
+        width: 95%;
+    }
+    #header #nav-right #button:hover
+    {
+        border: none;
+        font-size: 16px;
+        background-color: #ccc;
+        color: black;
+    }
+
+    #header li a:hover
+    {
+        font-size: 16px;
+        border: none;
+        background-color: #ccc;
+        color: black;   
+    }
+
+    .modal-container
+    {
+        width: 70%;
+    }
+}
+
+@media (max-width: 740px)
+{
+    #header p,
+    #header h2{
+        font-size: 16px;
+    }
+
+    #header #subnav
+    {
+        height: 40px;
+        background-color: black;
+        overflow:hidden;
+        z-index: 1;
+    }
+
+    
+    #header #subnav li
+    {
+        display: block;
+    }
+
+    #button {
+        display: none;
+    }
+
+    #header li a {
+        color: white;
+        text-decoration: none;
+        line-height: 47px;
+        padding: 0 0;
+    }
+
+    #header li a:hover
+    {
+        border: 0;
+        color: #0099ff;
+    }
+     #mobile-menu{
+        z-index: 1;
+     }
+   
+     .img-content
+     {
+        width: 100%;
+     }
+
+     #table-content 
+     {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #table-content .info-table
+    {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    #contact-info
+    {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    #contact-email
+    {
+        width: 100%;
+        padding: 0 0;
+    }
+
+    #footer
+    {
+        position:unset;
+        height: auto;
+    }
+
+    #about-us-special,
+    .about-us
+    {
+        padding-bottom: 10px;
+        position:unset;
+        width: 100%;
+    }
+}
+
